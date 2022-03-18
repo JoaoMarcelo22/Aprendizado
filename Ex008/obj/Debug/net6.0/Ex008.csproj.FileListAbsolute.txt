@@ -1,0 +1,5 @@
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.csproj.AssemblyReference.cache
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.GeneratedMSBuildEditorConfig.editorconfig
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.AssemblyInfoInputs.cache
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.AssemblyInfo.cs
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.csproj.CoreCompileInputs.cache
