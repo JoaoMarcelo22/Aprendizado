@@ -52,6 +52,32 @@ namespace Ex009
             else{
                 Console.WriteLine("IDOSO");        //senão.
             }
+
+
+            //ESTRUTURA CONDICIONAL--------------SWITCH-------------------------
+            int valor = 20;                        //Com Numero 
+            switch(valor)
+            {
+                case 1: Console.WriteLine("1"); break;
+                case 2: Console.WriteLine("2"); break;
+                case 3: Console.WriteLine("3"); break;
+                default:Console.WriteLine("4"); break;
+            }
+            string valor = "andre";
+            switch(valor)                          //Com string
+            {
+                case "joao": Console.WriteLine("Não é o cara"); break;
+                case "marcelo": Console.WriteLine("Não é o cara"); break;
+                case "andre": Console.WriteLine("É este"); break;
+                default:Console.WriteLine("não encontrado"); break;
+            }
+            bool? valor = null;                    //Com bolleano aceita Null
+            switch(valor)
+            {
+                case true: Console.WriteLine("Verdade"); break;
+                case false: Console.WriteLine("Falso"); break;
+                default:Console.WriteLine("Nulo"); break;
+            }
         }
     }
 }
