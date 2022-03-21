@@ -3,3 +3,13 @@
 /home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.AssemblyInfoInputs.cache
 /home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.AssemblyInfo.cs
 /home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.csproj.CoreCompileInputs.cache
+/home/nodis/Documentos/VsCode/Ex008/bin/Debug/net6.0/Ex008
+/home/nodis/Documentos/VsCode/Ex008/bin/Debug/net6.0/Ex008.deps.json
+/home/nodis/Documentos/VsCode/Ex008/bin/Debug/net6.0/Ex008.runtimeconfig.json
+/home/nodis/Documentos/VsCode/Ex008/bin/Debug/net6.0/Ex008.dll
+/home/nodis/Documentos/VsCode/Ex008/bin/Debug/net6.0/Ex008.pdb
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.dll
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/refint/Ex008.dll
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.pdb
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/Ex008.genruntimeconfig.cache
+/home/nodis/Documentos/VsCode/Ex008/obj/Debug/net6.0/ref/Ex008.dll
