@@ -6,13 +6,17 @@ namespace Ex008
     {
         static void Main(string[] args)
         {
-            bool? valor = null;
-            switch(valor)
-            {
-                case true: Console.WriteLine("Verdade"); break;
-                case false: Console.WriteLine("Falso"); break;
-                default:Console.WriteLine("Nulo"); break;
-            }
+        var arr = new string[2];
+            arr[0] = "Item 1";
+
+            var arr2 = arr;
+
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr2[0]);
+
+            arr[0] = "Item 2";
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr2[0]);
         }
     }
 }
