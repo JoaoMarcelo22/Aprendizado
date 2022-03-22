@@ -5,26 +5,37 @@ namespace Ex010{
     {
         static void Main(string[] args)
         {
+            menu();
+            
+        }
+        static void menu(){
             Console.Clear();
             Console.WriteLine("Digite a opção desejada:");
-            Console.WriteLine("1-Soma ; 2-subtração ; 3-divisão ; 4-multiplicação");
-            int opcao = int.Parse(Console.ReadLine());
-            if(opcao == 1){
-                Soma();
+            Console.WriteLine("1-Soma ; 2-subtração ; 3-divisão ; 4-multiplicação ; 5-Sair" );
+            short opcao = short.Parse(Console.ReadLine());
+            switch(opcao){
+                case 1 : Soma(); break;
+                case 2 : Subtracao(); break;
+                case 3 : Divisao(); break;
+                case 4 : Multiplicacao(); break;
+                case 5 : System.Environment.Exit(o);
+                default : menu();break;
             }
-            else if(opcao == 2){
-                Subtracao();
-            }
-            else if(opcao == 3){
-                Divisao();
-            }
-            else if(opcao == 4){
-                Multiplicacao();
-            }
-            else{
-                Console.WriteLine("Opção invalida ");
-            }
-            
+            //if(opcao == 1){
+            //    Soma();
+           // }
+            //else if(opcao == 2){
+            //    Subtracao();
+           // }
+           // else if(opcao == 3){
+           //     Divisao();
+           // }
+           // else if(opcao == 4){
+           //     Multiplicacao();
+           // }
+           // else{
+           //     Console.WriteLine("Opção invalida ");
+           // }
         }
         static void Soma(){
             Console.Clear();
@@ -42,6 +53,8 @@ namespace Ex010{
             //Console.WriteLine($"O resultado é : {resultado}");
             //Console.WriteLine($"O resultado é : {v1 + v2}");
             //Console.WriteLine("O resultado é :" (v1 + v2));
+            Console.ReadKey();
+            menu();
         }
         static void Subtracao(){
 
@@ -57,6 +70,8 @@ namespace Ex010{
             float resultado = n1 - n2;
 
             Console.WriteLine("O resultado da subtração é : "+ resultado);
+            Console.ReadKey();
+            menu();
         }
         static void Divisao(){
             
@@ -72,6 +87,8 @@ namespace Ex010{
             Console.WriteLine("");
 
             Console.WriteLine("O resultado da divisão é : " + resultado); 
+            Console.ReadKey();
+            menu();
         }
         static void Multiplicacao(){
 
@@ -88,6 +105,8 @@ namespace Ex010{
             Console.WriteLine("");
 
             Console.WriteLine("O resultado da Multiplicação é : " + resultado);
+            Console.ReadKey();
+            menu();
 
         }
     }
