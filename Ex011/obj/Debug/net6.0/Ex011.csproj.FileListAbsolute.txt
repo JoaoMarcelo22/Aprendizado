@@ -1,0 +1,15 @@
+/home/nodis/Documentos/VsCode/Ex011/bin/Debug/net6.0/Ex011
+/home/nodis/Documentos/VsCode/Ex011/bin/Debug/net6.0/Ex011.deps.json
+/home/nodis/Documentos/VsCode/Ex011/bin/Debug/net6.0/Ex011.runtimeconfig.json
+/home/nodis/Documentos/VsCode/Ex011/bin/Debug/net6.0/Ex011.dll
+/home/nodis/Documentos/VsCode/Ex011/bin/Debug/net6.0/Ex011.pdb
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.csproj.AssemblyReference.cache
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.GeneratedMSBuildEditorConfig.editorconfig
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.AssemblyInfoInputs.cache
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.AssemblyInfo.cs
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.csproj.CoreCompileInputs.cache
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.dll
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/refint/Ex011.dll
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.pdb
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/Ex011.genruntimeconfig.cache
+/home/nodis/Documentos/VsCode/Ex011/obj/Debug/net6.0/ref/Ex011.dll
