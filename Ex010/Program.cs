@@ -18,7 +18,7 @@ namespace Ex010{
                 case 2 : Subtracao(); break;
                 case 3 : Divisao(); break;
                 case 4 : Multiplicacao(); break;
-                case 5 : System.Environment.Exit(o);
+                case 5 : System.Environment.Exit(0); break;
                 default : menu();break;
             }
             //if(opcao == 1){
@@ -72,6 +72,7 @@ namespace Ex010{
             Console.WriteLine("O resultado da subtração é : "+ resultado);
             Console.ReadKey();
             menu();
+            
         }
         static void Divisao(){
             
