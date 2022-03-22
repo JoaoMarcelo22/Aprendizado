@@ -78,6 +78,43 @@ namespace Ex009
                 case false: Console.WriteLine("Falso"); break;
                 default:Console.WriteLine("Nulo"); break;
             }
+            //LAÇOS DE REPETIÇÃO---------------FOR--------------------------------
+            for(var i = 0; i<=5; i++){ //Conta de 0 a 5
+            Console.WriteLine(i);
+            }
+            for(var i = 1; i<=5; i++){ //conta de 1 a 5
+            Console.WriteLine(i);
+            }
+            for(var i = 0; i<5; i++){  //conta de 0 a 4
+            Console.WriteLine(i);
+            }
+            for(var i = 5; i<=0; i++){ //conta de 5 a 0
+            Console.WriteLine(i);
+            }
+            // Value Types e Reference Types--------------------------------------
+            int x = 25;
+            int y = x;       //o Y é apenas uma copia do X não mantem o mesmo valor de X
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+
+            x= 32;               
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+
+            //---------------------------------------------------------------------
+
+            var arr = new string[2];
+            arr[0] = "Item 1";
+
+            var arr2 = arr;
+
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr2[0]);
+
+            arr[0] = "Item 2";
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr2[0]); // é apenas a referencia não é a copia
+
         }
     }
 }
