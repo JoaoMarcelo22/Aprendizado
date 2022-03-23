@@ -9,17 +9,19 @@ namespace Ex010{
             
         }
         static void menu(){
+            
             Console.Clear();
             Console.WriteLine("Digite a opção desejada:");
-            Console.WriteLine("0-Sair ; 1-Soma ; 2-subtração ; 3-divisão ; 4-multiplicação ;  6-Media" );
-            short opcao = short.Parse(Console.ReadLine());
+            Console.WriteLine("0-Sair ; 1-Soma ; 2-subtração ; 3-divisão ; 4-multiplicação ;  5-Media" );
+
+            int.TryParse(Console.ReadLine(),out int opcao);
             switch(opcao){
                 case 0 : System.Environment.Exit(0); break;
                 case 1 : Soma(); break;
                 case 2 : Subtracao(); break;
                 case 3 : Divisao(); break;
                 case 4 : Multiplicacao(); break;
-                case 6: Media(); break;
+                case 5: Media(); break;
                 default : menu();break;
             }
             //if(opcao == 1){
@@ -41,10 +43,10 @@ namespace Ex010{
         static void Soma(){
             Console.Clear();
             Console.WriteLine("Primeiro valor: ");
-            float n1 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n1);
 
             Console.WriteLine("Segundo valor: ");
-            float n2 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(), out float n2);
 
             Console.WriteLine(" ");
 
@@ -61,10 +63,10 @@ namespace Ex010{
 
             Console.Clear();
             Console.WriteLine("Primeiro valor: ");
-            float n1 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(), out float n1);
 
             Console.WriteLine("Segundo valor: ");
-            float n2 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(), out float n2);
 
             Console.WriteLine("");
 
@@ -79,10 +81,10 @@ namespace Ex010{
             
             Console.Clear();
             Console.WriteLine("Digite o Primeiro numero : ");
-            float n1 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n1);
 
             Console.WriteLine("Digite o Segundo valor : ");
-            float n2 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n2);
 
             float resultado = n1 / n2;
 
@@ -97,10 +99,10 @@ namespace Ex010{
             Console.Clear();
 
             Console.WriteLine("Digite o Primeiro numero : ");
-            float n1 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n1);
 
             Console.WriteLine("Digite o Segundo numero : ");
-            float n2 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n2);
 
             float resultado = n1 * n2;
 
@@ -115,10 +117,10 @@ namespace Ex010{
             Console.Clear();
 
             Console.WriteLine("Digite o Primeiro numero : ");
-            float n1 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n1);
 
             Console.WriteLine("Digite o Segundo numero : ");
-            float n2 = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(),out float n2);
 
             float resultado = (n1 + n2) /2;
 
