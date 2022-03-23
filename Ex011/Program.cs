@@ -34,9 +34,9 @@ namespace Ex010{
             Console.WriteLine("0 = Sair");
             Console.WriteLine("Quanto tempo deseja contar?");
 
-            string data = Console.ReadLine().ToLower();
-            char type = char.Parse(data.Substring(data.Length-1,1));
-            int time = int.Parse(data.Substring(0, data.Length-1));
+            string data = Console.ReadLine().ToLower(); // transforma toda as string em minusculo.
+            char type = char.Parse(data.Substring(data.Length-1,1)); // pegamos o ultimo caractere
+            int time = int.Parse(data.Substring(0, data.Length-1));  // pegamos o corpo dos caracteres menos o ultimo caractere.
             int multiplier = 1;
             //Console.WriteLine(data);
             //Console.WriteLine(time);
