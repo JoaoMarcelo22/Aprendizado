@@ -11,14 +11,15 @@ namespace Ex010{
         static void menu(){
             Console.Clear();
             Console.WriteLine("Digite a opção desejada:");
-            Console.WriteLine("1-Soma ; 2-subtração ; 3-divisão ; 4-multiplicação ; 5-Sair" );
+            Console.WriteLine("0-Sair ; 1-Soma ; 2-subtração ; 3-divisão ; 4-multiplicação ;  6-Media" );
             short opcao = short.Parse(Console.ReadLine());
             switch(opcao){
+                case 0 : System.Environment.Exit(0); break;
                 case 1 : Soma(); break;
                 case 2 : Subtracao(); break;
                 case 3 : Divisao(); break;
                 case 4 : Multiplicacao(); break;
-                case 5 : System.Environment.Exit(0); break;
+                case 6: Media(); break;
                 default : menu();break;
             }
             //if(opcao == 1){
@@ -110,6 +111,25 @@ namespace Ex010{
             menu();
 
         }
+        static void Media(){
+            Console.Clear();
+
+            Console.WriteLine("Digite o Primeiro numero : ");
+            float n1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Segundo numero : ");
+            float n2 = float.Parse(Console.ReadLine());
+
+            float resultado = (n1 + n2) /2;
+
+            Console.WriteLine("");
+
+            Console.WriteLine("A media é : " + resultado );
+            Console.ReadKey();
+            menu();
+
+        }
+        
     }
         
 }
