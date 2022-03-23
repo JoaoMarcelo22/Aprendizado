@@ -1,0 +1,15 @@
+/home/nodis/Documentos/VsCode/Ex012/bin/Debug/net6.0/Ex012
+/home/nodis/Documentos/VsCode/Ex012/bin/Debug/net6.0/Ex012.deps.json
+/home/nodis/Documentos/VsCode/Ex012/bin/Debug/net6.0/Ex012.runtimeconfig.json
+/home/nodis/Documentos/VsCode/Ex012/bin/Debug/net6.0/Ex012.dll
+/home/nodis/Documentos/VsCode/Ex012/bin/Debug/net6.0/Ex012.pdb
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.csproj.AssemblyReference.cache
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.GeneratedMSBuildEditorConfig.editorconfig
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.AssemblyInfoInputs.cache
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.AssemblyInfo.cs
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.csproj.CoreCompileInputs.cache
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.dll
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/refint/Ex012.dll
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.pdb
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/Ex012.genruntimeconfig.cache
+/home/nodis/Documentos/VsCode/Ex012/obj/Debug/net6.0/ref/Ex012.dll
