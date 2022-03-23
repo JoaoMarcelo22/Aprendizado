@@ -60,6 +60,7 @@ namespace Ex010{
             Thread.Sleep(2500);
 
             Start(time);
+            //Cronômetro
         }
     }
 }
