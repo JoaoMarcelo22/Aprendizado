@@ -1,0 +1,15 @@
+/home/nodis/Documentos/VsCode/Ex015/bin/Debug/net6.0/Ex015
+/home/nodis/Documentos/VsCode/Ex015/bin/Debug/net6.0/Ex015.deps.json
+/home/nodis/Documentos/VsCode/Ex015/bin/Debug/net6.0/Ex015.runtimeconfig.json
+/home/nodis/Documentos/VsCode/Ex015/bin/Debug/net6.0/Ex015.dll
+/home/nodis/Documentos/VsCode/Ex015/bin/Debug/net6.0/Ex015.pdb
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.csproj.AssemblyReference.cache
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.GeneratedMSBuildEditorConfig.editorconfig
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.AssemblyInfoInputs.cache
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.AssemblyInfo.cs
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.csproj.CoreCompileInputs.cache
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.dll
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/refint/Ex015.dll
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.pdb
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/Ex015.genruntimeconfig.cache
+/home/nodis/Documentos/VsCode/Ex015/obj/Debug/net6.0/ref/Ex015.dll
