@@ -28,7 +28,7 @@ namespace Ex010{
 
         }
         static void Menu(){
-            Console.Clear();
+            //Console.Clear();
             Console.WriteLine("S = Segundos => 10s = 10 segundos");
             Console.WriteLine("M = Minuto => 1m = 1 minuto");
             Console.WriteLine("0 = Sair");

@@ -27,36 +27,36 @@ using System.Globalization;
          }
          static void Formato()
          {
-             Console.clear();
+            // Console.clear();
 
              var data = DateTime.Now;
 
-             var formatada = string.Format("{0:yyyy}", data); //FORMATAÇÃO DE ANO
-             var formatada = string.Format("{0:M}", data); //FORMATAÇÃO MÊS
-             var formatada = string.Format("{0:d}", data); //FORMATAÇÃO DIA 
-             var formatada = string.Format("{0:h}", data); //FORMATAÇÃO HORA
-             var formatada = string.Format("{0:m}", data); //FORMATAÇÃO MINUTO
-             var formatada = string.Format("{0:s}", data);  //FORMATAÇÃO SEGUNDO
-             var formatada = string.Format("{0:z}", data); //FORMATAÇÃO DO FUSO HORARIO
-             Console.WriteLine(formatada);
+            //  var formatada = string.Format("{0:yyyy}", data); //FORMATAÇÃO DE ANO
+            //  var formatada = string.Format("{0:M}", data); //FORMATAÇÃO MÊS
+            //  var formatada = string.Format("{0:d}", data); //FORMATAÇÃO DIA 
+            //  var formatada = string.Format("{0:h}", data); //FORMATAÇÃO HORA
+            //  var formatada = string.Format("{0:m}", data); //FORMATAÇÃO MINUTO
+            //  var formatada = string.Format("{0:s}", data);  //FORMATAÇÃO SEGUNDO
+            //  var formatada = string.Format("{0:z}", data); //FORMATAÇÃO DO FUSO HORARIO
+             //Console.WriteLine(formatada);
          }
          static void PadroesFormat(){
                 Console.Clear();
 
                 var data = DateTime.Now;
 
-                var formatada = string.Format("{0:t}",data); // short time menor 
-                var formatada = string.Format("{0:d}",data); // menor data possivel
-                var formatada = string.Format("{0:T}",data); // tempo longo
-                var formatada = string.Format("{0:D}",data); // Data longa
-                var formatada = string.Format("{0:f}",data); // combina data e hora
-                var formatada = string.Format("{0:g}",data); // combina os dois da melhor forma
-                var formatada = string.Format("{0:r}",data); // com certo padrão
-                var formatada = string.Format("{0:R}",data); // mesmo padrão
-                var formatada = string.Format("{0:s}",data); //converter para o JSON
-                var formatada = string.Format("{0:u}",data); // padrão universal
+                // var formatada = string.Format("{0:t}",data); // short time menor 
+                // var formatada = string.Format("{0:d}",data); // menor data possivel
+                // var formatada = string.Format("{0:T}",data); // tempo longo
+                // var formatada = string.Format("{0:D}",data); // Data longa
+                // var formatada = string.Format("{0:f}",data); // combina data e hora
+                // var formatada = string.Format("{0:g}",data); // combina os dois da melhor forma
+                // var formatada = string.Format("{0:r}",data); // com certo padrão
+                // var formatada = string.Format("{0:R}",data); // mesmo padrão
+                // var formatada = string.Format("{0:s}",data); //converter para o JSON
+                // var formatada = string.Format("{0:u}",data); // padrão universal
 
-                Console.WriteLine(formatada);
+              //  Console.WriteLine(formatada);
          }
          static void AdicionandoVal(){
              Console.Clear();
@@ -93,7 +93,7 @@ using System.Globalization;
 
              Console.WriteLine(DateTime.Now.ToString("D", atual));
 
-             Console.WriteLine(data);
+             //Console.WriteLine(data);
 
             var dateTime = DateTime.UtcNow;
             Console.WriteLine(dateTime);
@@ -142,7 +142,7 @@ using System.Globalization;
             Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Add(new TimeSpan(12, 0, 0))); //
 
             Console.WriteLine(DateTime.DaysInMonth(2020, 2));  // QUANDTOS DIAS TEM O ANO
-            Console.WriteLine(IsWeekend(DateTime.Now.DayOfWeek));  //É FINAL DE SEMANA ??
+           // Console.WriteLine(IsWeekend(DateTime.Now.DayOfWeek));  //É FINAL DE SEMANA ??
             Console.WriteLine(DateTime.Now.IsDaylightSavingTime());  // ESTAMOS EM HORARIO DE VERAO??
          }
      }
