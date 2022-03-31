@@ -1,5 +1,8 @@
 // Boas praticas as classes São no maximo 1 por arquivo
 
+import { Cliente } from "./Cliente.js";
+import{ContaCorrente} from "./ContaCorrente.js";
+
 const cliente1 = new Cliente();
 cliente1.nome = "Ricardo";
 cliente1.cpf = 11122233309;
