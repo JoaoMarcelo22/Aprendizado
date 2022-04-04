@@ -1,9 +1,7 @@
 import {Cliente} from "./Cliente.js";
 export class ContaCorrente{
     static numeroDeContas = 0;
-    agencia;
      // #saldo =0 https://github.com/tc39/proposal-class-fields#private-fields
-    _saldo = 0;
 
     set Cliente(novoValor){
         if(novoValor instanceof Cliente){
@@ -21,6 +19,7 @@ export class ContaCorrente{
     constructor(Cliente, agencia){
         this.agencia = agencia;
         this.Cliente = Cliente; 
+        this._Saldo = 0;
         ContaCorrente.numeroDeContas += 1;// usando os acessores, recebe os atributos para a criação das class "Objetos". apenas no momento da criação por esse motivo o "This."
     }
 
