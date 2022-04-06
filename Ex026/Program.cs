@@ -2,7 +2,7 @@
 
 namespace Ex026{
     class Program{
-        static void Main(){
+        static void Main(string[]args){
             Executavel();
         } 
         static void Executavel(){
