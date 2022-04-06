@@ -26,27 +26,6 @@ namespace Numbers
                 Console.WriteLine(funcionario.Id);
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           //  for (var index = 0; item <= meuArray.Length;index++){  // um modo de percorrer uma array
            //         Console.WriteLine(meuArray[index]);
             }

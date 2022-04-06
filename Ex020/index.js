@@ -1,18 +1,20 @@
-// Boas praticas as classes São no maximo 1 por arquivo
-
 import {Cliente} from "./Cliente.js";
 import{ContaCorrente} from "./ContaCorrente.js";
-import { ContaPoupanca } from "./ContaPoupanca.js";
+import {ContaPoupanca} from "./ContaPoupanca.js";
 
 const cliente1 = new Cliente("Ricardo",11122233309 );
 
 const cliente2 = new Cliente("Alice",88822233309);
 
-const conta1 = new ContaCorrente(cliente1,1001);
-const conta2 = new ContaCorrente(cliente2,1002);
+const ContaCorrenteRicardo = new ContaCorrente(cliente1,1001);
+ContaCorrenteRicardo.depositar(500);
+ContaCorrenteRicardo.sacar(100);
 
-const ContaPoupanca = new ContaPoupanca(50,cliente1,1001);
+const contaPoupanca = new ContaPoupanca(50,cliente1,1001);
+contaPoupanca.sacar(10);
 
-console.log(ContaPoupanca);
+console.log(contaPoupanca);
+console.log(ContaCorrenteRicardo);
 
-console.log(ContaCorrente.numeroDeContas);
+//console.log(ContaCorrente.numeroDeContas);
+// Boas praticas as classes São no maximo 1 por arquivo
