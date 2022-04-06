@@ -27,6 +27,7 @@ namespace Ex021
             idade5 = Convert.ToDouble(Console.ReadLine());
             total = (idade1+idade2+idade3+idade4+idade5)/5;
             Console.WriteLine("A Media das idades é " + total +" anos.");
+            Console.Clear();
         }
         static void Texto() {
             Console.WriteLine("Digite outra idade ; ");
